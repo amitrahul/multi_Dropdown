@@ -1,0 +1,41 @@
+.dropDrownWrapper {
+  width: 30vw;
+  position: relative;
+}
+
+.dropDrownWrapper input {
+  width: 60%;
+}
+
+.suggestioBox {
+  width: 60%;
+  height: 30vh;
+  position: absolute;
+  top: 21px;
+  border: 2px solid gray;
+  margin-left: 70px;
+  margin-top: 45px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  align-items: center;
+}
+
+.suggestioBox li {
+  list-style-type: none;
+}
+.searchedItem {
+  border: 2px solid black;
+  width: 60%;
+  height: 8vh;
+  margin-left: 70px;
+  display: flex;
+  justify-content: space-around;
+}
+.searchedItem li {
+  list-style-type: none;
+  border-radius: 10px;
+  border: 1.5px solid rgb(99, 46, 198);
+  padding: 2px;
+  margin: auto;
+}
